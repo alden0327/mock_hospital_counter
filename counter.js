@@ -1,5 +1,3 @@
-const worker = require('./worker');
-
 exports.Counter = function(workers_init) {
   var _workers = workers_init,
     once_deplete = 10,
