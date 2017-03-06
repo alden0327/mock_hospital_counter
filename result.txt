@@ -1,0 +1,280 @@
+[Command: node D:\workspace\C++\mock_hospital_counter\JS\app.js]
+Counter now has 100 patients
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Worker 1 now had 3 patients
+Deplete 2 patients
+Worker 1 Last: 1 patients
+Worker 2 now had 3 patients
+Deplete 2 patients
+Worker 2 Last: 1 patients
+Worker 3 now had 2 patients
+Deplete 2 patients
+Worker 3 Last: 0 patients
+Worker 4 now had 2 patients
+Deplete 2 patients
+Worker 4 Last: 0 patients
+
+Counter now has 90 patients
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Worker 1 now had 3 patients
+Deplete 2 patients
+Worker 1 Last: 1 patients
+Worker 2 now had 3 patients
+Deplete 2 patients
+Worker 2 Last: 1 patients
+Worker 3 now had 3 patients
+Deplete 2 patients
+Worker 3 Last: 1 patients
+Worker 4 now had 3 patients
+Deplete 2 patients
+Worker 4 Last: 1 patients
+
+Counter now has 80 patients
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Worker 1 now had 4 patients
+Deplete 2 patients
+Worker 1 Last: 2 patients
+Worker 2 now had 4 patients
+Deplete 2 patients
+Worker 2 Last: 2 patients
+Worker 3 now had 3 patients
+Deplete 2 patients
+Worker 3 Last: 1 patients
+Worker 4 now had 3 patients
+Deplete 2 patients
+Worker 4 Last: 1 patients
+
+Counter now has 70 patients
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Worker 1 now had 4 patients
+Deplete 2 patients
+Worker 1 Last: 2 patients
+Worker 2 now had 4 patients
+Deplete 2 patients
+Worker 2 Last: 2 patients
+Worker 3 now had 4 patients
+Deplete 2 patients
+Worker 3 Last: 2 patients
+Worker 4 now had 4 patients
+Deplete 2 patients
+Worker 4 Last: 2 patients
+
+Counter now has 60 patients
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Worker 1 now had 5 patients
+Deplete 2 patients
+Worker 1 Last: 3 patients
+Worker 2 now had 5 patients
+Deplete 2 patients
+Worker 2 Last: 3 patients
+Worker 3 now had 4 patients
+Deplete 2 patients
+Worker 3 Last: 2 patients
+Worker 4 now had 4 patients
+Deplete 2 patients
+Worker 4 Last: 2 patients
+
+Counter now has 50 patients
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Worker 1 now had 5 patients
+Deplete 2 patients
+Worker 1 Last: 3 patients
+Worker 2 now had 5 patients
+Deplete 2 patients
+Worker 2 Last: 3 patients
+Worker 3 now had 5 patients
+Deplete 2 patients
+Worker 3 Last: 3 patients
+Worker 4 now had 5 patients
+Deplete 2 patients
+Worker 4 Last: 3 patients
+
+Counter now has 40 patients
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Worker 1 now had 6 patients
+Deplete 2 patients
+Worker 1 Last: 4 patients
+Worker 2 now had 6 patients
+Deplete 2 patients
+Worker 2 Last: 4 patients
+Worker 3 now had 5 patients
+Deplete 2 patients
+Worker 3 Last: 3 patients
+Worker 4 now had 5 patients
+Deplete 2 patients
+Worker 4 Last: 3 patients
+
+Counter now has 30 patients
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Worker 1 now had 6 patients
+Deplete 2 patients
+Worker 1 Last: 4 patients
+Worker 2 now had 6 patients
+Deplete 2 patients
+Worker 2 Last: 4 patients
+Worker 3 now had 6 patients
+Deplete 2 patients
+Worker 3 Last: 4 patients
+Worker 4 now had 6 patients
+Deplete 2 patients
+Worker 4 Last: 4 patients
+
+Counter now has 20 patients
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Worker 1 now had 7 patients
+Deplete 2 patients
+Worker 1 Last: 5 patients
+Worker 2 now had 7 patients
+Deplete 2 patients
+Worker 2 Last: 5 patients
+Worker 3 now had 6 patients
+Deplete 2 patients
+Worker 3 Last: 4 patients
+Worker 4 now had 6 patients
+Deplete 2 patients
+Worker 4 Last: 4 patients
+
+Counter now has 10 patients
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Send patient to Worker 1
+Send patient to Worker 2
+Send patient to Worker 3
+Send patient to Worker 4
+Worker 1 now had 7 patients
+Deplete 2 patients
+Worker 1 Last: 5 patients
+Worker 2 now had 7 patients
+Deplete 2 patients
+Worker 2 Last: 5 patients
+Worker 3 now had 7 patients
+Deplete 2 patients
+Worker 3 Last: 5 patients
+Worker 4 now had 7 patients
+Deplete 2 patients
+Worker 4 Last: 5 patients
+There has no patients waiting, so Counter has no work
+Worker 1 now had 5 patients
+Deplete 2 patients
+Worker 1 Last: 3 patients
+Worker 2 now had 5 patients
+Deplete 2 patients
+Worker 2 Last: 3 patients
+Worker 3 now had 5 patients
+Deplete 2 patients
+Worker 3 Last: 3 patients
+Worker 4 now had 5 patients
+Deplete 2 patients
+Worker 4 Last: 3 patients
+There has no patients waiting, so Counter has no work
+Worker 1 now had 3 patients
+Deplete 2 patients
+Worker 1 Last: 1 patients
+Worker 2 now had 3 patients
+Deplete 2 patients
+Worker 2 Last: 1 patients
+Worker 3 now had 3 patients
+Deplete 2 patients
+Worker 3 Last: 1 patients
+Worker 4 now had 3 patients
+Deplete 2 patients
+Worker 4 Last: 1 patients
+There has no patients waiting, so Counter has no work
+Worker 1 now had 1 patients
+Deplete 1 patients
+Worker 1 Last: 0 patients
+Worker 2 now had 1 patients
+Deplete 1 patients
+Worker 2 Last: 0 patients
+Worker 3 now had 1 patients
+Deplete 1 patients
+Worker 3 Last: 0 patients
+Worker 4 now had 1 patients
+Deplete 1 patients
+Worker 4 Last: 0 patients
+[Finished in 0.208s]
