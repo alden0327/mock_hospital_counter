@@ -1,4 +1,4 @@
-exports.Worker = function(max_q, ID) {
+Worker = function(max_q, ID) {
   var waiting_patients = 0,
     MAX_Queue = max_q,
     once_deplete = 2,
@@ -28,3 +28,9 @@ exports.Worker = function(max_q, ID) {
       id: id
     };
 }
+exports.workers = [
+  Worker(50, 1),
+  Worker(50, 2),
+  Worker(50, 3),
+  Worker(50, 4),
+];
