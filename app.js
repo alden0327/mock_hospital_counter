@@ -2,10 +2,10 @@ const worker = require('./worker');
 const counter = require('./counter');
 
 var workers = [
-  new worker.Worker(50, 1),
-  new worker.Worker(50, 2),
-  new worker.Worker(50, 3),
-  new worker.Worker(50, 4),
+  worker.Worker(50, 1),
+  worker.Worker(50, 2),
+  worker.Worker(50, 3),
+  worker.Worker(50, 4),
 ];
 
 var last_patients = 100;
