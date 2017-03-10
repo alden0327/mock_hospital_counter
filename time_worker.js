@@ -7,22 +7,25 @@ function randomDealTime() {
   return n;
 }
 
-exports.Result = function() {
+exports.Result = function(id) {
   var Worker = {
     Patients: [],
     Max: 50,
     hasRoom: function() {
       return this.Patients.length < this.Max
-    }
+    },
+    ID: id
   };
 
   Patients = []
 
-  for(let i=0; i<1000; i+=5) {
-    Patients.push(new time_patients.Patient(i));
+  var counterWorkTime = 1000;
+  var frequenyAllocation = 12;
+  for(let i=0; i<counterWorkTime; i+=frequenyAllocation) {
+    Patients.push(time_patients.Patient(i));
   }
 
-  var amount_of_Patients = 200;
+  var amount_of_Patients = Patients.length;
   var now = 0;
   var total_waiting_time = 0;
 
@@ -55,5 +58,6 @@ exports.Result = function() {
   return {
     total_wait: total_waiting_time,
     cost_time: now,
+    ID: Worker.ID
   }
 }

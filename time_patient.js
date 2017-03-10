@@ -1,5 +1,7 @@
 exports.Patient = function(arriveTime) {
-  this.arriveTime = arriveTime;
-  this.waitingTime = 0;
-  this.dealTime = 0;
+  return {
+    arriveTime: arriveTime,
+    waitingTime: 0,
+    dealTime: 0
+  }
 }
