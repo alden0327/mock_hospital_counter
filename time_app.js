@@ -1,12 +1,12 @@
 const time_worker = require('./time_worker.js');
 
-workers_amount = 5;
-
-var workers = [];
-
-for(let i=0; i<workers_amount; i++) {
-  workers[i] = time_worker.Result(0, 1000, 15, workers_amount);
-}
+var workers = [
+    time_worker.Result(0, 1000, 15, 5, 30),
+    time_worker.Result(1, 1000, 15, 5, 10),
+    time_worker.Result(2, 1000, 15, 5, 40),
+    time_worker.Result(3, 1000, 15, 5, 10),
+    time_worker.Result(4, 1000, 15, 5, 10),
+];
 
 var TotalUseTime = 0,
   total_waiting_time = 0;
@@ -26,7 +26,7 @@ for (var i in workers) {
   console.log("Patients at Worker "+worker.ID+" total wait "+worker.average_wait+" mins");
   average_wait += worker.average_wait;
 }
-console.log("Average waiting time: "+average_wait/workers_amount+" mins");
+console.log("Average waiting time: "+average_wait/workers.length+" mins");
 for (var i in workers) {
   var worker = workers[i];
   console.log("Worker "+worker.ID+" cost time: "+worker.cost_time+" mins");

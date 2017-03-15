@@ -8,7 +8,7 @@ function randomDealTime() {
   // return 20;
 }
 
-exports.Result = function(id, wantPatients, fA, workersAmount) {
+exports.Result = function(id, counterPatients, fA, workersAmount, probability) {
   var Worker = {
     Patients: [],
     Max: 50,
@@ -20,8 +20,8 @@ exports.Result = function(id, wantPatients, fA, workersAmount) {
 
   Patients = []
 
-  var counterWorkTime = wantPatients*fA;
-  var frequenyAllocation = fA*workersAmount;
+  var counterWorkTime = counterPatients*fA;
+  var frequenyAllocation = fA*workersAmount*((probability/100)/(1/workersAmount));
   for(let i=0; i<counterWorkTime; i+=frequenyAllocation) {
     Patients.push(time_patients.Patient(i));
   }
