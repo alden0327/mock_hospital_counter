@@ -1,14 +1,6 @@
 const time_patients = require('./time_patient.js');
 
-function randomDealTime() {
-  var maxNum = 21;
-  var minNum = 19;
-  var n = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
-  return n;
-  // return 20;
-}
-
-exports.Result = function(id, counterPatients, fA, workersAmount, probability) {
+exports.Result = function(id, counterPatients, fA, workersAmount, probability, randomDealTime) {
   var Worker = {
     Patients: [],
     Max: 50,

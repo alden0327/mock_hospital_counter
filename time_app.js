@@ -1,11 +1,18 @@
 const time_worker = require('./time_worker.js');
 
+function setDealTimeFunc(min, max) {
+  return function() {
+    var n = Math.floor(Math.random() * (max - min + 1)) + min;
+    return n;
+  }
+}
+
 var workers = [
-    time_worker.Result(0, 1000, 15, 5, 30),
-    time_worker.Result(1, 1000, 15, 5, 10),
-    time_worker.Result(2, 1000, 15, 5, 40),
-    time_worker.Result(3, 1000, 15, 5, 10),
-    time_worker.Result(4, 1000, 15, 5, 10),
+    time_worker.Result(0, 1000, 15, 5, 30, setDealTimeFunc(19, 21) ),
+    time_worker.Result(1, 1000, 15, 5, 10, setDealTimeFunc(19, 21) ),
+    time_worker.Result(2, 1000, 15, 5, 40, setDealTimeFunc(19, 21) ),
+    time_worker.Result(3, 1000, 15, 5, 10, setDealTimeFunc(19, 21) ),
+    time_worker.Result(4, 1000, 15, 5, 10, setDealTimeFunc(19, 21) ),
 ];
 
 var TotalUseTime = 0,
